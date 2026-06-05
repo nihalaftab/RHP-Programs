@@ -7,8 +7,8 @@ public class AllCharactersCheck {
         System.out.print("Enter your string: ");
         String s = sc.nextLine();
 
-        int flag1 = 0; // lowercase letters
-        int flag2 = 0; // uppercase letters
+        int flag1 = 0; 
+        int flag2 = 0;
 
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
